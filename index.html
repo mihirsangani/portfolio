@@ -2,443 +2,1063 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-        <title>Mihir-Sangani-Portfolio</title>
-        <meta content="" name="description" />
-        <meta content="" name="keywords" />
-
-        <!-- Favicons -->
-        <link href="assets/img/favicon.png" rel="icon" />
-        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-        <!-- Template Main CSS File -->
-        <link href="assets/css/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Mihir Sangani Portfolio</title>
+        <!--Bootstrap-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!--Responsive-->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <!--Animation-->
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!--Prettyphoto-->
+        <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+        <!--Font-Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css" /> -->
+        <!--Owl-Slider-->
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
+        <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  [endif]-->
     </head>
-
-    <body>
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top">
-            <div class="container d-flex align-items-center justify-content-between">
-                <h1 class="logo"><a href="index.html">Mihir Sangani</a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-                <nav id="navbar" class="navbar">
-                    <ul>
-                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                        <li><a class="nav-link scrollto" href="#about">About</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                        <li><a class="nav-link scrollto" href="#work">Work</a></li>
-                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
-                <!-- .navbar -->
+    <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+        <!--Preloader-->
+        <div id="preloader">
+            <div id="pre-status">
+                <div class="preload-placeholder"></div>
+            </div>
+        </div>
+        <!--Navigation-->
+        <header id="menu">
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#menu"><img style="padding-top: 7px" src="./images/Logo/Logo.svg" /></a>
+                            <!-- <a class="navbar-brand" href="#menu"><img style="padding-top: 7px" src="./images/Logo/MS-Logo.png" /></a> -->
+                            <!-- <a class="navbar-brand" href="#menu"><img src="https://www.creativefabrica.com/wp-content/uploads/2021/09/14/MS-Logo-design-vector-Graphics-17268978-1.jpg" height="50vh" width="100px" /></a> -->
+                            <!-- <a class="navbar-brand" href="#menu"><img src="https://media1.thehungryjpeg.com/thumbs2/ori_3801316_t0f9jm1yf92t6jbxy119hdkpsh5pt0f3niy08iho_monogram-ms-logo-design.jpg" height="60vh" width="70px" /></a> -->
+                            <!-- <a class="navbar-brand" href="#menu"><img src="https://st3.depositphotos.com/27847728/36122/v/450/depositphotos_361226180-stock-illustration-initial-letter-logo-design-vector.jpg" height="50vh" width="50px" /></a> -->
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a class="scroll" href="#menu">Home</a></li>
+                                <li><a class="scroll" href="#about">About</a></li>
+                                <li><a class="scroll" href="#service">Service</a></li>
+                                <li><a class="scroll" href="#features">Features</a></li>
+                                <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+                                <!-- <li><a class="scroll" href="#pricing">Pricing</a></li> -->
+                                <!-- <li><a class="scroll" href="#team">Team</a></li> -->
+                                <li><a class="scroll" href="#blog">Blog</a></li>
+                                <li><a class="scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
             </div>
         </header>
-        <!-- End Header -->
-
-        <!-- ======= Hero Section ======= -->
-        <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/pxfuel.jpg)">
-            <div class="overlay-itro"></div>
-            <div class="hero-content display-table">
-                <div class="table-cell">
-                    <div class="container">
-                        <!--<p class="display-6 color-d">Hello, world!</p>-->
-                        <h1 class="hero-title mb-4">I am Mihir Sangani</h1>
-                        <p class="hero-subtitle"><span class="typed" data-typed-items="Freelancer, Designer, FullStack Developer"></span></p>
-                        <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        <!--Slider-Start-->
+        <section id="slider">
+            <div id="home-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active" style="background-image: url(images/Slider/01.jpg)">
+                        <div class="carousel-caption container">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <h1>I'm Mihir Sangani</h1>
+                                    <h2>Backend Software Engineer</h2>
+                                    <p>Backend Software Engineer | Microservices | Cloud Computing</p>
+                                    <p style="font-style: italic; font-size: 13px">Building high-performance backend systems with Node.js, Express.js, AWS, and Kafka to deliver seamless, scalable, and secure applications.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="item" style="background-image: url(images/Slider/02.jpg)">
+                        <div class="carousel-caption container">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <h1>Building Scalable, High-Performance Systems</h1>
+                                    <!-- <h2>Backend Software Engineer</h2> -->
+                                    <p>Node.js | Express.js | AWS | Kafka | Docker | Kubernetes</p>
+                                    <p style="font-style: italic; font-size: 13px">Expert in designing RESTful APIs, integrating real-time messaging systems, and optimizing cloud-native applications for high availability.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(images/Slider/03.jpg)">
+                        <div class="carousel-caption container">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <h1>Passionate About Backend Engineering</h1>
+                                    <!-- <h2>Backend Software Engineer</h2> -->
+                                    <p>Microservices | Real-Time Processing | Distributed Systems</p>
+                                    <p style="font-style: italic; font-size: 13px">Committed to building fault-tolerant, distributed backend systems that efficiently handle thousands of concurrent users and deliver superior system performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <!--/#home-carousel-->
+        </section>
+        <!--About-Section-Start-->
+        <section id="about">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="heading">
+                        <h2>ABOUT <span>Me</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>I</strong></span
+                            >'m Mihir Sangani, a Backend Software Engineer passionate about architecting high-performance, scalable, and secure backend systems. With extensive experience in Node.js, Express.js, AWS, Kafka, and Microservices, I specialize in designing robust architectures that handle
+                            real-time data processing and ensure seamless system integrations. My expertise lies in building cloud-native solutions, optimizing API performance, and developing fault-tolerant distributed systems that power thousands of concurrent users.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 ab-sec">
+                        <div class="col-md-6">
+                            <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>hy Work With Me?</h3>
+                            <p>
+                                <span><strong>Proven Expertise</strong></span
+                                >: Over the years, I have successfully developed and optimized scalable backend systems that support high-traffic applications and enhance user experience.
+                                <br />
+                                <span><strong>Cloud & Scalability</strong></span
+                                >: Well-versed in AWS, GCP, and Kubernetes, ensuring high availability and seamless cloud infrastructure deployment.
+                                <br />
+                                <span><strong>Efficient & Secure</strong></span
+                                >: Skilled in implementing API security best practices, database optimization, and system reliability measures to build secure, high-performance applications.
+                            </p>
+                            <p>
+                                From designing RESTful APIs to integrating real-time messaging systems, I thrive on solving complex backend challenges with cutting-edge technologies. My approach combines innovation, scalability, and efficiency, making me a reliable partner in building
+                                mission-critical applications.
+                            </p>
+                        </div>
+                        <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/01.jpg" alt="" /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About-Sec-2-Start-->
+        <div class="bg-sec">
+            <div class="container">
+                <div class="col-md-9 col-sm-8 col-xs-6">
+                    <h3>Download My Resume</h3>
+                    <p>Want to learn more about my work and experience? Download my resume.</p>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><a class="btn-down" href="">Download Resume</a></div>
+            </div>
+        </div>
+        <!--Service-Section-Start-->
+        <section id="service">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="heading">
+                        <h2>My SERVI<span>CE</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>I</strong></span> specialize in designing and developing scalable, high-performance backend solutions tailored to meet the evolving demands of modern applications. With deep expertise in cloud-based architectures, microservices, and real-time data
+                            processing, I help businesses build secure, efficient, and future-ready digital solutions. By leveraging cutting-edge technologies like <span>Node.js, Express.js, AWS, Kafka, and Kubernetes,</span> I ensure that backend infrastructures are highly available, reliable, and
+                            cost-efficient while seamlessly integrating with third-party services.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="features-sec">
+                        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                            <div class="media service-box">
+                                <div class="pull-left"><i class="fa fa-code"></i></div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Backend Development</h5>
+                                    <p>Designing and implementing scalable backend systems using Node.js and Express.js for high performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-md-4-->
+                        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                            <div class="media service-box">
+                                <div class="pull-left"><i class="fa-brands fa-docker"></i></div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Cloud Computing & DevOps</h5>
+                                    <p>Deploying applications on AWS and GCP, ensuring scalability, security, and seamless cloud integration.</p>
+                                    <!-- <p>Deploying applications on AWS and GCP with efficient CI/CD pipelines.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-md-4-->
+                        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                            <div class="media service-box">
+                                <div class="pull-left"><i class="fa fa-bolt"></i></div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Real-time Data Processing</h5>
+                                    <p>Leveraging Apache Kafka and RabbitMQ for efficient real-time data streaming and event-driven systems.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-md-4-->
+                        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                            <div class="media service-box">
+                                <div class="pull-left"><i class="fa fa-link"></i></div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">API Development & Integration</h5>
+                                    <p>Building secure RESTful APIs and integrating third-party services like Slack, Zoho, and OpenAI.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-md-4-->
+                        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                            <div class="media service-box">
+                                <div class="pull-left"><i class="fa fa-rocket"></i></div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Performance Optimization</h5>
+                                    <p>Enhancing system performance by optimizing queries, reducing response time, and improving efficiency.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-md-4-->
+                        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                            <div class="media service-box">
+                                <div class="pull-left"><i class="fa fa-screwdriver-wrench"></i></div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Testing & Code Quality</h5>
+                                    <p>Ensuring stability with Jest testing, clean coding practices, and automated deployment workflows.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-md-4-->
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="our-skills wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <p class="lead">Backend Development</p>
+                                <div class="progress">
+                                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="95" style="width: 95%">95%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <p class="lead">Cloud Computing & DevOps</p>
+                                <div class="progress">
+                                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="90" style="width: 90%">90%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                                <p class="lead">Real-time Data Processing</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuenow="0" aria-valuemin="100" aria-valuemax="85" style="width: 85%">85%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="600ms">
+                                <p class="lead">API Development & Integration</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuenow="0" aria-valuemin="100" aria-valuemax="90" style="width: 90%">90%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                <p class="lead">Performance Optimization</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuenow="0" aria-valuemin="100" aria-valuemax="80" style="width: 80%">80%</div>
+                                </div>
+                            </div>
+                            <!-- <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                <p class="lead">Testing & Code Quality</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuenow="0" aria-valuemin="100" aria-valuemax="75" style="width: 75%">75%</div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms"><img src="images/Service/My-Profile-With-Grey-BG.jpg" class="img-responsive" alt="" /></div>
+                </div>
+            </div>
+        </section>
+        <!--Features-Section-Start-->
+        <section id="features">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="heading">
+                        <h2>AWESOME FEATUR<span>ES</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>I</strong></span> specialize in architecting scalable, high-performance backend solutions tailored to meet the evolving demands of modern applications. My expertise spans cloud computing, microservices, API development, real-time data processing, and
+                            performance optimization, ensuring robust and efficient digital experiences.
+                        </p>
+                    </div>
+                </div>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#tab-1" role="tab" data-toggle="tab"><i class="fa fa-code"></i></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-2" role="tab" data-toggle="tab"><i class="fa-brands fa-docker"></i></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-3" role="tab" data-toggle="tab"><i class="fa fa-bolt"></i></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-4" role="tab" data-toggle="tab"><i class="fa fa-link"></i></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-5" role="tab" data-toggle="tab"><i class="fa fa-rocket"></i></a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active feat-sec" id="tab-1">
+                        <div class="col-md-6 tab">
+                            <h5>Backend Development</h5>
+                            <div class="line"></div>
+                            <div class="clearfix"></div>
+                            <p class="feat-sec">
+                                Backend systems are the backbone of applications, and I focus on building scalable, efficient, and fault-tolerant architectures. Using <span>Node.js and Express.js</span>, I develop modular microservices that improve maintainability. My experience with
+                                <span>PostgreSQL, MySQL, and PL/SQL</span> ensures optimized data storage and retrieval. By implementing server-side best practices, I enable high-performance applications that handle heavy traffic loads.<br />
+                            </p>
+                            <p class="feat-sec-1">
+                                I design robust backend solutions that enhance system efficiency and stability. By ensuring proper database indexing and optimized queries, I improve data retrieval speeds and reduce response times, leading to a smoother and more responsive user experience.
+                            </p>
+                        </div>
+                        <div class="col-md-6 tab-img"><img src="images/Features/03.jpg" class="img-responsive" alt="" /></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-2">
+                        <div class="col-md-6 tab">
+                            <h5>Cloud Computing & DevOps</h5>
+                            <div class="line"></div>
+                            <div class="clearfix"></div>
+                            <p class="feat-sec">
+                                Modern applications require high availability and resilience, which I achieve by deploying applications on <span>AWS and GCP.</span> My expertise in <span>Docker and Kubernetes</span> allows seamless workload orchestration and infrastructure management. I implement
+                                <span>CI/CD pipelines</span> using <span>Jenkins and Bitbucket, automating testing, deployment, and monitoring.</span> By utilizing serverless computing, I enable dynamic scaling with minimal infrastructure costs, allowing businesses to adapt to changing demands
+                                efficiently.<br />
+                            </p>
+                            <p class="feat-sec-1">
+                                Cloud automation ensures seamless, scalable, and cost-effective deployments. With automated scaling and real-time monitoring, applications maintain optimal performance under fluctuating workloads, ensuring uninterrupted service and improved business continuity.
+                            </p>
+                        </div>
+                        <div class="col-md-6 tab-img"><img src="images/Features/01.jpg" class="img-responsive" alt="" /></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-3">
+                        <div class="col-md-6 tab">
+                            <h5>Real-time Data Processing</h5>
+                            <div class="line"></div>
+                            <div class="clearfix"></div>
+                            <p class="feat-sec">
+                                With the increasing need for instantaneous data handling, I design real-time event-driven architectures using <span>Apache Kafka and RabbitMQ</span>. These technologies enable seamless message brokering, distributed event processing, and real-time data
+                                synchronization, ensuring applications can handle live interactions, analytics, and notifications efficiently.<br />
+                            </p>
+                            <p class="feat-sec-1">
+                                By implementing asynchronous messaging patterns, streaming data pipelines, and event-driven microservices, I enable applications to process high-velocity data streams in real-time. This enhances user engagement, optimizes decision-making processes, and ensures
+                                seamless communication across multiple services. Whether it's financial transactions, social media feeds, or real-time monitoring, my backend solutions provide low-latency, high-throughput, and fault-tolerant data processing.
+                            </p>
+                        </div>
+                        <div class="col-md-6 tab-img"><img src="images/Features/cxo-blog-image-03.webp" class="img-responsive" alt="" style="height: 38vh" /></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-4">
+                        <div class="col-md-6 tab">
+                            <h5>API Development & Third-Party Integration</h5>
+                            <div class="line"></div>
+                            <div class="clearfix"></div>
+                            <p class="feat-sec">
+                                APIs drive modern applications, and I build secure, well-structured RESTful APIs that allow seamless data exchange and system communication. I specialize in OAuth2.0 and JWT authentication, ensuring that data remains secure and access-controlled. My experience
+                                integrating <span>META, Slack, Zoho, OpenAI, Calendly, etc...</span> enhances platform functionality, making applications more powerful and efficient. By following RESTful principles, I create scalable APIs that simplify third-party integration and enhance
+                                cross-platform compatibility.<br />
+                            </p>
+                            <p class="feat-sec-1">By focusing on secure API architectures, I improve system interoperability and efficiency, enabling businesses to expand their platforms, enhance automation, and create more dynamic user experiences.</p>
+                        </div>
+                        <div class="col-md-6 tab-img"><img src="images/Features/API-Integration.jpeg" class="img-responsive" alt="" style="height: 38vh" /></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-5">
+                        <div class="col-md-6 tab">
+                            <h5>Performance Optimization & Security</h5>
+                            <div class="line"></div>
+                            <div class="clearfix"></div>
+                            <p class="feat-sec">
+                                Efficient backend systems must be responsive, optimized, and scalable under increasing workloads. I focus on query optimization, database indexing, caching (Redis, Memcached), and load balancing to ensure faster and smoother performance. By analyzing bottlenecks and
+                                resource utilization, I implement solutions that reduce latency, improve processing speed, and optimize infrastructure costs.
+                            </p>
+                            <p class="feat-sec-1">
+                                I leverage profiling tools, log monitoring, and real-time diagnostics to fine-tune application performance. Using multi-threading, asynchronous programming, and rate limiting, I ensure backend services remain stable and efficient, capable of handling traffic spikes
+                                with minimal downtime. This results in better responsiveness, improved user experience, and reduced operational overhead.
+                            </p>
+                        </div>
+                        <div class="col-md-6 tab-img"><img src="images/Features/05.jpg" class="img-responsive" alt="" /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Portfolio-Section-Start-->
+        <section id="portfolio">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="heading">
+                        <h2>MY PORTFOL<span>IO</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>A</strong></span
+                            >rchitecting the Future of Scalable Backend Systems with API-First Development, AI Chatbot Integration, OpenAI Automation, Meta Platform Connectivity, and Optimized Cloud Hosting.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <ul class="portfolio-filter">
+                        <li><a class="active" href="#" data-filter="*">All Works</a></li>
+                        <li><a href="#" data-filter=".AIPCA">AI-Powered Chatbots & Automation</a></li>
+                        <li><a href="#" data-filter=".MNC">My NodeJS Code</a></li>
+                        <li><a href="#" data-filter=".SFS">SaaS & FinTech Solutions</a></li>
+                    </ul>
+                    <!--/#portfolio-filter-->
+                </div>
+                <div class="portfolio-items">
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item AIPCA">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/instabrain-1.jpg" alt="" height="50vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/Onboarding-2.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>ITEM-5</h6>
+                                <p>Lorem Ipsum</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item AIPCA">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/instabrain-2.jpg" alt="" height="50vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/Onboarding-3.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>ITEM-6</h6>
+                                <p>Lorem Ipsum</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item AIPCA">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/instabrain-3.jpg" alt="" height="50vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/Onboarding-3.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>ITEM-6</h6>
+                                <p>Lorem Ipsum</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item MNC">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/zoilo-app-js.jpg" alt="" height="100vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/MAG-Dashboard.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>Commission Tracker</h6>
+                                <p>I developed a dynamic commission management system that automates tiered compensation for insurance agents, enhancing motivation, productivity, and overall sales performance within a corporate framework.</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item MNC">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/Node-WS-Code.jpg" alt="" height="50vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/Onboarding-1.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>ITEM-4</h6>
+                                <p>Lorem Ipsum</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item MNC">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/Node-Code.jpg" alt="" height="50vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/Onboarding-1.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>ITEM-4</h6>
+                                <p>Lorem Ipsum</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item SFS">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/MAG-Dashboard.jpg" alt="" height="100vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/MAG-Carriers.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>ITEM-2</h6>
+                                <p>Lorem Ipsum</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item SFS">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/Portfolio/MAG-Carrier.jpg" alt="" height="50vh" />
+                            <!-- <div class="portfolio-info">
+                                <a class="preview" href="images/Portfolio/Splash-Screen.png" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                                <h6>ITEM-3</h6>
+                                <p>Lorem Ipsum</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!--/.portfolio-item-->
+                </div>
+            </div>
+        </section>
+        <!--Pricing-Section-Start-->
+        <!-- <section id="pricing">
+            <div class="container">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="heading">
+                        <h2>PRICE PACKAG<span>ES</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>L</strong></span
+                            >orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <ul class="pricing">
+                                <li class="plan-header">
+                                    <div class="price-duration">
+                                        <div class="price">$39</div>
+                                        <div class="duration">per month</div>
+                                    </div>
+                                    <div class="plan-name">Starter</div>
+                                </li>
+                                <li><strong>1</strong> DOMAIN</li>
+                                <li><strong>100GB</strong> DISK SPACE</li>
+                                <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                                <li>SHARED SSL CERTIFICATE</li>
+                                <li><strong>10</strong> EMAIL ADDRESS</li>
+                                <li><strong>24/7</strong> SUPPORT</li>
+                                <li><a class="btn-order" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <ul class="pricing">
+                                <li class="plan-header">
+                                    <div class="price-duration">
+                                        <div class="price">$69</div>
+                                        <div class="duration">per month</div>
+                                    </div>
+                                    <div class="plan-name">Business</div>
+                                </li>
+                                <li><strong>3</strong> DOMAIN</li>
+                                <li><strong>300GB</strong> DISK SPACE</li>
+                                <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                                <li>SHARED SSL CERTIFICATE</li>
+                                <li><strong>30</strong> EMAIL ADDRESS</li>
+                                <li><strong>24/7</strong> SUPPORT</li>
+                                <li><a class="btn-order" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+                            <ul class="pricing">
+                                <li class="plan-header">
+                                    <div class="price-duration">
+                                        <div class="price">$99</div>
+                                        <div class="duration">per month</div>
+                                    </div>
+                                    <div class="plan-name">Pro</div>
+                                </li>
+                                <li><strong>5</strong> DOMAIN</li>
+                                <li><strong>500GB</strong> DISK SPACE</li>
+                                <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                                <li>SHARED SSL CERTIFICATE</li>
+                                <li><strong>50</strong> EMAIL ADDRESS</li>
+                                <li><strong>24/7</strong> SUPPORT</li>
+                                <li><a class="btn-order" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
+                            <ul class="pricing">
+                                <li class="plan-header">
+                                    <div class="price-duration">
+                                        <div class="price">$199</div>
+                                        <div class="duration">per month</div>
+                                    </div>
+                                    <div class="plan-name">Ultra</div>
+                                </li>
+                                <li><strong>10</strong> DOMAIN</li>
+                                <li><strong>1000GB</strong> DISK SPACE</li>
+                                <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                                <li>SHARED SSL CERTIFICATE</li>
+                                <li><strong>100</strong> EMAIL ADDRESS</li>
+                                <li><strong>24/7</strong> SUPPORT</li>
+                                <li><a class="btn-order" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--Team-Section-Start-->
+        <!-- <section id="team">
+            <div class="container">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="heading">
+                        <h2>OUR TE<span>AM</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>L</strong></span
+                            >orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <div class="team-sec">
+                            <div class="team-img">
+                                <img src="images/Team/01.jpg" class="img-responsive" alt="" />
+                                <div class="team-desc">
+                                    <h5>Julia Amanda</h5>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <ul class="team-social-icon">
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google-plus"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="team-sec">
+                            <div class="team-img">
+                                <img src="images/Team/02.jpg" class="img-responsive" alt="" />
+                                <div class="team-desc">
+                                    <h5>Merry Luis</h5>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <ul class="team-social-icon">
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google-plus"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="team-sec">
+                            <div class="team-img">
+                                <img src="images/Team/03.jpg" class="img-responsive" alt="" />
+                                <div class="team-desc">
+                                    <h5>Poll Astin</h5>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <ul class="team-social-icon">
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google-plus"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="team-sec">
+                            <div class="team-img">
+                                <img src="images/Team/04.jpg" class="img-responsive" alt="" />
+                                <div class="team-desc">
+                                    <h5>Janea Syria</h5>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <ul class="team-social-icon">
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google-plus"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--Testimonials-Section-Start-->
+        <section id="testimonials" class="parallex">
+            <div class="container">
+                <div class="quote"><i class="fa fa-quote-left"></i></div>
+                <div class="clearfix"></div>
+                <div class="slider-text">
+                    <div id="owl-testi" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="col-md-10 col-md-offset-1">
+                                <img src="images/Testimonials/saloni.jpg" class="img-circle" alt="" />
+                                <h5>Working with Mihir has been eye-opening. His structured, forward-thinking approach to backend development and cloud computing ensured a seamless, AI-driven messaging system. His mentorship greatly improved our team's efficiency.</h5>
+                                <h6>Saloni Gupta</h6>
+                                <p>Sr. Software Engineer | Customer Success Manager, Chronox AI</p>
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <img src="images/Testimonials/Meetena.jpg" class="img-circle" alt="" />
+                            <h5>
+                                Mihir's backend expertise greatly optimized the myAdvisorGrids project's data infrastructure. His high-performance query optimization in PostgreSQL and efficient data pipelines enabled seamless large-scale data processing. Fine-tuning database indexing and caching
+                                significantly improved response times.
+                            </h5>
+                            <h6>Meteena Watson</h6>
+                            <p>Tech Manager | Marketing Manager, myAdvisorGrids</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <img src="images/Testimonials/Bhumit.jpg" class="img-circle" alt="" />
+                            <h5>
+                                Mihir played a key role in integrating secure authentication protocols and API management within Zoilo’s ecosystem. His attention to detail and ability to optimize backend workflows resulted in a 40% improvement in response times and system stability. A fantastic
+                                engineer who goes the extra mile.
+                            </h5>
+                            <h6>Bhumit</h6>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fun-Facts-Section-Start-->
+        <section id="fun-facts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="fun-fact text-center">
+                            <h3><i class="fa fa-thumbs-o-up"></i> <span class="timer">4</span><span>+</span></h3>
+                            <h6>Happy Clients</h6>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="fun-fact text-center">
+                            <h3><i class="fa fa-briefcase fa-6"></i> <span class="timer">7</span><span>+</span></h3>
+                            <h6>Completed Projects</h6>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="fun-fact text-center">
+                            <h3><i class="fa fa-coffee"></i> <span class="timer">1500</span><span>+</span></h3>
+                            <h6>Cups of Coffee</h6>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="fun-fact text-center">
+                            <h3><i class="fa fa-code"></i> <span class="timer">323686</span></h3>
+                            <h6>Lines of Code</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Blog-Section-Start-->
+        <section id="blog">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="heading">
+                        <h2>LATEST BL<span>OG</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>B</strong></span
+                            >uilding Scalable, Secure, and High-Performance Backend Systems for the Future.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4 blog-sec">
+                            <div class="blog-info">
+                                <img src="images/Blog/AI.jpg" class="img-responsive" alt="" />
+                                <div class="data-meta">
+                                    <h4>Feb</h4>
+                                    <strong>05</strong><br />
+                                    2025
+                                </div>
+                                <a href="#">
+                                    <h5>The Future of AI-Powered Backend Systems</h5>
+                                </a>
+                                <ul class="blog-icon">
+                                    <li>
+                                        <i class="fa fa-pencil"></i
+                                        ><a href="#">
+                                            <h6>Mihir Sangani</h6>
+                                        </a>
+                                    </li>
+                                    <li class="comment">
+                                        <i class="fa fa-comment"></i
+                                        ><a href="#">
+                                            <h6>14</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>Artificial Intelligence is revolutionizing backend development. Discover how integrating OpenAI APIs, machine learning models, and automated workflows can enhance backend efficiency and decision-making.</p>
+                                <!-- <a href="#" class="btn-blg">Read More</a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-4 blog-sec">
+                            <div class="blog-info">
+                                <img src="images/Blog/Microservices-Banner.jpg" class="img-responsive" alt="" />
+                                <div class="data-meta">
+                                    <h4>Jan</h4>
+                                    <strong>05</strong><br />
+                                    2025
+                                </div>
+                                <a href="#">
+                                    <h5>Optimizing Microservices for High Performance</h5>
+                                </a>
+                                <ul class="blog-icon">
+                                    <li>
+                                        <i class="fa fa-pencil"></i
+                                        ><a href="#">
+                                            <h6>Mihir Sangani</h6>
+                                        </a>
+                                    </li>
+                                    <li class="comment">
+                                        <i class="fa fa-comment"></i
+                                        ><a href="#">
+                                            <h6>04</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>Microservices architecture has transformed the way applications scale and perform. Learn how to optimize microservices using Node.js, Apache Kafka, and Kubernetes to achieve seamless scalability and efficiency.</p>
+                                <!-- <a href="#" class="btn-blg">Read More</a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-4 blog-sec">
+                            <div class="blog-info">
+                                <img src="images/Blog/GCP-Node.jpg" class="img-responsive" alt="" />
+                                <div class="data-meta">
+                                    <h4>Dec</h4>
+                                    <strong>02</strong><br />
+                                    2024
+                                </div>
+                                <a href="#">
+                                    <h5>Cloud-Native Backend Development with GCP & NodeJS</h5>
+                                </a>
+                                <ul class="blog-icon">
+                                    <li>
+                                        <i class="fa fa-pencil"></i
+                                        ><a href="#">
+                                            <h6>Mihir Sangani</h6>
+                                        </a>
+                                    </li>
+                                    <li class="comment">
+                                        <i class="fa fa-comment"></i
+                                        ><a href="#">
+                                            <h6>09</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>Cloud computing is the backbone of modern backend systems. Explore best practices for leveraging AWS and GCP to build highly available, fault-tolerant, and cost-effective cloud-native applications.</p>
+                                <!-- <a href="#" class="btn-blg">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Client-Section-Start-->
+        <div id="client">
+            <div class="container">
+                <div id="client-slider" class="owl-carousel">
+                    <div class="item client-logo">
+                        <a href="#"><img src="https://storage.writewiz-staging.in/general/instabrain_1727185013903.png" class="img-responsive" alt="" height="100vh" width="80%" /></a>
+                    </div>
+                    <div class="item client-logo">
+                        <a href="#"><img src="https://storage.writewiz-staging.in/general/iVALT_1727185485059.png" class="img-responsive" alt="" height="100vh" width="75%" /></a>
+                    </div>
+                    <div class="item client-logo">
+                        <a href="#"><img src="https://storage.writewiz-staging.in/general/brokersalliance_1727185628853.png" class="img-responsive" alt="" height="100vh" width="80%" /></a>
+                    </div>
+                    <div class="item client-logo">
+                        <a href="#"><img src="https://storage.writewiz-staging.in/general/Mundo_Chiapas_1727185402366.png" class="img-responsive" alt="" height="100vh" width="80%" /></a>
+                    </div>
+                    <div class="item client-logo">
+                        <a href="#"><img src="https://storage.writewiz-staging.in/general/JMS_1727185601140.png" class="img-responsive" alt="" height="100vh" width="80%" /></a>
+                    </div>
+                    <!-- <div class="item client-logo">
+                        <a href="#"><img src="images/clients/6.png" class="img-responsive" alt="" /></a>
+                    </div>
+                    <div class="item client-logo">
+                        <a href="#"><img src="images/clients/7.png" class="img-responsive" alt="" /></a>
+                    </div> -->
                 </div>
             </div>
         </div>
-        <!-- End Hero Section -->
-
-        <main id="main">
-            <!-- ======= About Section ======= -->
-            <section id="about" class="about-mf sect-pt4 route">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="box-shadow-full">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-md-5">
-                                                <div class="about-img">
-                                                    <img src="assets/img/my_profile_image_2.jpeg" class="img-fluid rounded b-shadow-a" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-7">
-                                                <div class="about-info">
-                                                    <p><span class="title-s">Name: </span> <span>Mihir Sangani</span></p>
-                                                    <p><span class="title-s">Profile: </span> <span>Full Stack Web Developer</span></p>
-                                                    <p><span class="title-s">Email: </span> <span>mihirsangani45@gmail.com</span></p>
-                                                    <p><span class="title-s">Phone: </span> <span>+91 99092 01838</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-mf">
-                                            <p class="title-s">Skill</p>
-                                            <span>NodeJS</span> <span class="pull-right" style="padding-left: 90%">85%</span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                            <span>PostgreSQL</span> <span class="pull-right" style="padding-left: 90%">80%</span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                            <span>SQL Server</span> <span class="pull-right" style="padding-left: 90%">80%</span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                            <span>WordPress</span> <span class="pull-right" style="padding-left: 90%">70%</span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                            <span>.NET Core 6</span> <span class="pull-right" style="padding-left: 90%">75%</span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                            <span>ReactJS</span> <span class="pull-right" style="padding-left: 90%">55%</span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                            <span>JAVASCRIPT</span> <span class="pull-right" style="padding-left: 90%">90%</span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
+        <!--Contact-Section-Start-->
+        <section id="contact">
+            <div class="container">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="heading">
+                        <h2>CONTACT <span>US</span></h2>
+                        <div class="line"></div>
+                        <p>
+                            <span><strong>L</strong></span
+                            >orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="col-md-6 col-sm-6 contact-sec-1">
+                        <h4>CONTACT IN<span>FO</span></h4>
+                        <ul class="contact-form">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <h6><strong>Address:</strong> No 123 , Wallstreet, India</h6>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <h6><strong>Mail Us:</strong> <a href="#">Info@yourdomain.com</a></h6>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <h6><strong>Phone:</strong> +91 123-456-7890</h6>
+                            </li>
+                            <li>
+                                <i class="fa fa-wechat"></i>
+                                <h6><strong>Website:</strong> <a href="#">www.Cosmix.com</a></h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <form id="main-contact-form" name="contact-form" method="post" action="#">
+                            <div class="row wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" placeholder="Name" required="required" />
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="about-me pt-4 pt-md-0">
-                                            <div class="title-box-2">
-                                                <h5 class="title-left">About me</h5>
-                                            </div>
-                                            <p class="lead">I'm a Full Stack Web Developer with 1.5 years of experience in creating web applications.</p>
-                                            <p class="lead">Skilled in HTML/CSS, JavaScript, React, Node.js, Express, and PostgreSQL, SQL Server.</p>
-                                            <p class="lead">I am passionate about customer-centric design and continuous learning.</p>
-                                            <p class="lead">I value communication and collaboration. Let's work together on your next project.</p>
-                                            <p class="lead">Contact me to learn more.</p>
-                                        </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Email Address" required="required" />
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End About Section -->
-
-            <!-- ======= Services Section ======= -->
-            <section id="services" class="services-mf pt-5 route">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="title-box text-center">
-                                <h3 class="title-a">Services</h3>
-                                <p class="subtitle-a">Solutions We Provide.</p>
-                                <div class="line-mf"></div>
+                            <div class="form-group">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject" required="required" />
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="service-box">
-                                <div class="service-ico">
-                                    <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
-                                </div>
-                                <div class="service-content">
-                                    <h2 class="s-title">Web Design</h2>
-                                    <p class="s-description text-center">
-                                        UI/UX Design
-                                        <br />
-                                        Responsive Design
-                                        <br />
-                                        SEO Optimization
-                                        <br />
-                                        <br />
-                                        <br />
-                                    </p>
-                                </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="service-box">
-                                <div class="service-ico">
-                                    <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
-                                </div>
-                                <div class="service-content">
-                                    <h2 class="s-title">Web Development</h2>
-                                    <p class="s-description text-center">
-                                        Front-End Development
-                                        <br />
-                                        Back-End Development
-                                        <br />
-                                        E-Commerce Development
-                                        <br />
-                                        Website Maintenance
-                                        <br />
-                                        Website Hosting
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="service-box">
-                                <div class="service-ico">
-                                    <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-                                </div>
-                                <div class="service-content">
-                                    <h2 class="s-title">Responsive Design</h2>
-                                    <p class="s-description text-center">
-                                        Mobile-Friendly Website Design
-                                        <br />
-                                        Responsive Website Testing
-                                        <br />
-                                        Responsive Website Optimization
-                                        <br />
-                                        Responsive Email Design
-                                        <br />
-                                        Responsive Landing Page Design
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Services Section -->
-
-            <!-- ======= Counter Section ======= -->
-            <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-                <div class="overlay-mf"></div>
-                <div class="container position-relative">
-                    <div class="row">
-                        <div class="col-sm-3 col-lg-3">
-                            <div class="counter-box counter-box pt-4 pt-md-0">
-                                <div class="counter-ico">
-                                    <span class="ico-circle"><i class="bi bi-check"></i></span>
-                                </div>
-                                <div class="counter-num">
-                                    <p data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="counter purecounter">+</p>
-                                    <span class="counter-text">WORKS COMPLETED</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-lg-3">
-                            <div class="counter-box pt-4 pt-md-0">
-                                <div class="counter-ico">
-                                    <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-                                </div>
-                                <div class="counter-num">
-                                    <p data-purecounter-start="0" data-purecounter-end="1.5" data-purecounter-duration="1" class="counter purecounter">+</p>
-                                    <span class="counter-text">YEARS OF EXPERIENCE</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-lg-3">
-                            <div class="counter-box pt-4 pt-md-0">
-                                <div class="counter-ico">
-                                    <span class="ico-circle"><i class="bi bi-people"></i></span>
-                                </div>
-                                <div class="counter-num">
-                                    <p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="counter purecounter">+</p>
-                                    <span class="counter-text">SATISFACTIONS</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-lg-3">
-                            <div class="counter-box pt-4 pt-md-0">
-                                <div class="counter-ico">
-                                    <span class="ico-circle"><i class="bi bi-award"></i></span>
-                                </div>
-                                <div class="counter-num">
-                                    <p data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="counter purecounter">+</p>
-                                    <span class="counter-text">AWARDS</span>
-                                </div>
-                            </div>
-                        </div>
+                            <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a>
+                        </form>
                     </div>
                 </div>
             </div>
-            <!-- End Counter Section -->
-
-            <!-- ======= Portfolio Section ======= -->
-            <section id="work" class="portfolio-mf sect-pt4 route">
+        </section>
+        <footer id="footer">
+            <div class="bg-sec">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="title-box text-center">
-                                <h3 class="title-a">Portfolio</h3>
-                                <p class="subtitle-a">Experience My Work, A Visual Representation of My Skills...</p>
-                                <div class="line-mf"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="work-box">
-                                <a href="assets/img/mail_extractor_landing.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                    <div class="work-img">
-                                        <img src="assets/img/mail_extractor_landing.png" alt="" class="img-fluid" />
-                                    </div>
-                                </a>
-                                <div class="work-content">
-                                    <div class="row">
-                                        <div class="col-sm-8">
-                                            <h2 class="w-title">Mail Extractor</h2>
-                                            <div class="w-more"><span class="w-ctegory">Web Development</span></div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="w-like">
-                                                <a href="mailextractor.html"> <span class="bi bi-plus-circle"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="work-box">
-                                <a href="assets/img/retirementbrain_login.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                    <div class="work-img">
-                                        <img src="assets/img/retirementbrain_login.png" alt="" class="img-fluid" />
-                                    </div>
-                                </a>
-                                <div class="work-content">
-                                    <div class="row">
-                                        <div class="col-sm-8">
-                                            <h2 class="w-title">Retirement Brain</h2>
-                                            <div class="w-more"><span class="w-ctegory">Web Development</span></div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="w-like">
-                                                <a href="retirementbrain.html"> <span class="bi bi-plus-circle"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="work-box">
-                                <a href="assets/img/instabrain_landing1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                    <div class="work-img">
-                                        <img src="assets/img/instabrain_landing1.png" alt="" class="img-fluid" />
-                                    </div>
-                                </a>
-                                <div class="work-content">
-                                    <div class="row">
-                                        <div class="col-sm-8">
-                                            <h2 class="w-title">InstaBrain</h2>
-                                            <div class="w-more"><span class="w-ctegory">Web Development</span></div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="w-like">
-                                                <a href="instabrain.html"> <span class="bi bi-plus-circle"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Portfolio Section -->
-
-            <!-- ======= Contact Section ======= -->
-            <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-                <div class="overlay-mf"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="contact-mf">
-                                <div id="contact" class="box-shadow-full">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="title-box-2 pt-4 pt-md-0">
-                                                <h5 class="title-left">Get in Touch</h5>
-                                            </div>
-                                            <div class="more-info">
-                                                <p class="lead">Need a skilled and experienced developer to bring your project to life?</p>
-                                                <p class="lead">
-                                                    Look no further! With a passion for solving technical challenges and a track record of delivering high-quality solutions, I'm confident I can help you succeed. Whether you need a custom Web App, API Integration, or Website Optimization, I'm here to
-                                                    help.
-                                                </p>
-                                                <p class="lead">Contact me today to learn more about my services and how we can work together.</p>
-                                                <ul class="list-ico">
-                                                    <li><span class="bi bi-geo-alt"></span> Ahmedabad</li>
-                                                    <li><span class="bi bi-phone"></span> (+91) 990 920 1838</li>
-                                                    <li><span class="bi bi-envelope"></span> mihirsangani45@gmail.com</li>
-                                                </ul>
-                                            </div>
-                                            <div class="socials">
-                                                <ul>
-                                                    <li>
-                                                        <a href="https://www.linkedin.com/in/mihir-sangani/"
-                                                            ><span class="ico-circle"><i class="bi bi-linkedin"></i></span
-                                                        ></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="tel:+919909201838"
-                                                            ><span class="ico-circle"><i class="bi bi-telephone-outbound-fill"></i></span
-                                                        ></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="mailto:mihirsangani45@gmail.com"
-                                                            ><span class="ico-circle"><i class="bi bi-envelope-at-fill"></i></span
-                                                        ></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Contact Section -->
-        </main>
-        <!-- End #main -->
-
-        <!-- ======= Footer ======= -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="copyright-box">
-                            <p class="copyright"><strong>My Portfolio</strong></p>
-                            <div class="credits">Designed by <a href="https://bootstrapmade.com/">Mihir Sangani</a></div>
-                        </div>
-                    </div>
+                    <h2>LOOKING FORWARD TO <strong>HEARING </strong>FROM YOU!</h2>
                 </div>
             </div>
         </footer>
-        <!-- End  Footer -->
-
-        <div id="preloader"></div>
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/typed.js/typed.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
+        <footer id="footer-down">
+            <h2>Follow Us On</h2>
+            <ul class="social-icon">
+                <li class="facebook hvr-pulse">
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                </li>
+                <li class="twitter hvr-pulse">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="linkedin hvr-pulse">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li class="google-plus hvr-pulse">
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li class="youtube hvr-pulse">
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li class="instagram hvr-pulse">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li class="behance hvr-pulse">
+                    <a href="#"><i class="fa fa-behance"></i></a>
+                </li>
+            </ul>
+            <p>&copy; Copyright 2016 Cosmix - Created By : <a href="http://templatestock.co" target="_blank">Template Stock</a></p>
+        </footer>
+        <!--Jquery-->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!--Boostrap-Jquery-->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <!--Preetyphoto-Jquery-->
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <!--NiceScroll-Jquery-->
+        <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <!--Isotopes-->
+        <script type="text/javascript" src="js/jquery.isotope.js"></script>
+        <!--Wow-Jquery-->
+        <script type="text/javascript" src="js/wow.js"></script>
+        <!--Count-Jquey-->
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+        <!--Owl-Crousels-Jqury-->
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <!--Main-Scripts-->
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
+
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->
